@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QRReader.iml" filepath="$PROJECT_DIR$/.idea/modules/QRReader.iml" group="QRReader" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/QRReader.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/QRReader.app.iml" group="QRReader/app" />
+    </modules>
+  </component>
+</project>
