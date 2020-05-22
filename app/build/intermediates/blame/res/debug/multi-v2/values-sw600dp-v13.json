@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/ss/.gradle/caches/transforms-2/files-2.1/7b170d54a1a5861c8719e532c2193465/appcompat-1.1.0/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "/home/ss/.gradle/caches/transforms-2/files-2.1/934592ef7dad678ebc1d25624daed829/material-1.1.0-alpha09/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,553,617,673,732,795",
+                        "endLines": "2,3,4,5,6,7,9,10,11,12,13,17",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "110,180,251,323,381,439,548,612,668,727,790,962"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,18,21,22,23,24",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1109,1311,1367,1426,1489",
+                        "endLines": "10,11,12,13,14,15,17,18,21,22,23,27",
+                        "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
+                        "endOffsets": "666,736,807,879,937,995,1104,1168,1362,1421,1484,1656"
+                    }
+                },
+                {
+                    "source": "/home/ss/.gradle/caches/transforms-2/files-2.1/f621f21da5a36a21a6f36417b04d999f/mediarouter-1.0.0-alpha5/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,124",
+                        "endColumns": "68,68",
+                        "endOffsets": "119,188"
+                    },
+                    "to": {
+                        "startLines": "19,20",
+                        "startColumns": "4,4",
+                        "startOffsets": "1173,1242",
+                        "endColumns": "68,68",
+                        "endOffsets": "1237,1306"
+                    }
+                }
+            ]
+        }
+    ]
+}
