@@ -71,7 +71,8 @@ dependencies {
     implementation "androidx.navigation:navigation-ui-ktx:$rootProject.navigationVersion"
 
     // Play Services (QR code reader)
-    implementation "com.google.android.gms:play-services:$rootProject.playServicesVersion"
+    // implementation "com.google.android.gms:play-services:$rootProject.playServicesVersion"
+    implementation "com.google.android.gms:play-services-vision:$rootProject.playServicesVisionVersion"
 
     // RecyclerView
     implementation "androidx.recyclerview:recyclerview:$rootProject.recyclerViewVersion"

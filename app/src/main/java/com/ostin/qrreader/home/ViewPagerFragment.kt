@@ -8,8 +8,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.tabs.TabLayoutMediator
 import com.ostin.qrreader.R
-import com.ostin.qrreader.adapters.CODE_LIST_PAGE_INDEX
-import com.ostin.qrreader.adapters.CODE_READER_PAGE_INDEX
+import com.ostin.qrreader.adapters.LIST_PAGE_INDEX
+import com.ostin.qrreader.adapters.READER_PAGE_INDEX
 import com.ostin.qrreader.adapters.ViewPagerAdapter
 import com.ostin.qrreader.databinding.FragmentViewPagerBinding
 
@@ -38,16 +38,16 @@ class ViewPagerFragment : Fragment() {
 
     private fun getTabIcon(position: Int): Int {
         return when (position) {
-            CODE_READER_PAGE_INDEX -> R.drawable.code_reader_tab_selector
-            CODE_LIST_PAGE_INDEX -> R.drawable.code_list_tab_selector
+            READER_PAGE_INDEX -> R.drawable.code_reader_tab_selector
+            LIST_PAGE_INDEX -> R.drawable.code_list_tab_selector
             else -> throw IndexOutOfBoundsException()
         }
     }
 
     private fun getTabTitle(position: Int): String? {
         return when (position) {
-            CODE_READER_PAGE_INDEX -> getString(R.string.code_reader_title)
-            CODE_LIST_PAGE_INDEX -> getString(R.string.code_list_title)
+            READER_PAGE_INDEX -> getString(R.string.code_reader_title)
+            LIST_PAGE_INDEX -> getString(R.string.code_list_title)
             else -> null
         }
     }

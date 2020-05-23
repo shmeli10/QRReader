@@ -1,7 +1,7 @@
 [
     {
-        "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_code_reader.xml",
-        "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/layout/fragment_code_reader.xml"
+        "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_reader.xml",
+        "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/layout/fragment_reader.xml"
     },
     {
         "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_view_pager.xml",
@@ -10,5 +10,9 @@
     {
         "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
         "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_list.xml",
+        "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/layout/fragment_list.xml"
     }
 ]

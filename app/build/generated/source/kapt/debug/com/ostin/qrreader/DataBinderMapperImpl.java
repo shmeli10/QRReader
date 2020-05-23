@@ -7,7 +7,8 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.ostin.qrreader.databinding.ActivityMainBindingImpl;
-import com.ostin.qrreader.databinding.FragmentCodeReaderBindingImpl;
+import com.ostin.qrreader.databinding.FragmentListBindingImpl;
+import com.ostin.qrreader.databinding.FragmentReaderBindingImpl;
 import com.ostin.qrreader.databinding.FragmentViewPagerBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
@@ -22,15 +23,18 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final int LAYOUT_FRAGMENTCODEREADER = 2;
+  private static final int LAYOUT_FRAGMENTLIST = 2;
 
-  private static final int LAYOUT_FRAGMENTVIEWPAGER = 3;
+  private static final int LAYOUT_FRAGMENTREADER = 3;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(3);
+  private static final int LAYOUT_FRAGMENTVIEWPAGER = 4;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(4);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.ostin.qrreader.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(com.ostin.qrreader.R.layout.fragment_code_reader, LAYOUT_FRAGMENTCODEREADER);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.ostin.qrreader.R.layout.fragment_list, LAYOUT_FRAGMENTLIST);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.ostin.qrreader.R.layout.fragment_reader, LAYOUT_FRAGMENTREADER);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.ostin.qrreader.R.layout.fragment_view_pager, LAYOUT_FRAGMENTVIEWPAGER);
   }
 
@@ -49,11 +53,17 @@ public class DataBinderMapperImpl extends DataBinderMapper {
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
         }
-        case  LAYOUT_FRAGMENTCODEREADER: {
-          if ("layout/fragment_code_reader_0".equals(tag)) {
-            return new FragmentCodeReaderBindingImpl(component, view);
+        case  LAYOUT_FRAGMENTLIST: {
+          if ("layout/fragment_list_0".equals(tag)) {
+            return new FragmentListBindingImpl(component, view);
           }
-          throw new IllegalArgumentException("The tag for fragment_code_reader is invalid. Received: " + tag);
+          throw new IllegalArgumentException("The tag for fragment_list is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTREADER: {
+          if ("layout/fragment_reader_0".equals(tag)) {
+            return new FragmentReaderBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_reader is invalid. Received: " + tag);
         }
         case  LAYOUT_FRAGMENTVIEWPAGER: {
           if ("layout/fragment_view_pager_0".equals(tag)) {
@@ -117,11 +127,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(3);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(4);
 
     static {
       sKeys.put("layout/activity_main_0", com.ostin.qrreader.R.layout.activity_main);
-      sKeys.put("layout/fragment_code_reader_0", com.ostin.qrreader.R.layout.fragment_code_reader);
+      sKeys.put("layout/fragment_list_0", com.ostin.qrreader.R.layout.fragment_list);
+      sKeys.put("layout/fragment_reader_0", com.ostin.qrreader.R.layout.fragment_reader);
       sKeys.put("layout/fragment_view_pager_0", com.ostin.qrreader.R.layout.fragment_view_pager);
     }
   }

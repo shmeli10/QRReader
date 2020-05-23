@@ -48,16 +48,16 @@
         "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/res/merged/debug/layout_fragment_code_reader.xml.flat",
-        "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/layout/fragment_code_reader.xml"
-    },
-    {
         "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/res/merged/debug/drawable_ic_code_list_active.xml.flat",
         "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/drawable/ic_code_list_active.xml"
     },
     {
         "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/res/merged/debug/layout_fragment_list.xml.flat",
+        "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/layout/fragment_list.xml"
     },
     {
         "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
@@ -118,5 +118,9 @@
     {
         "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/build/intermediates/res/merged/debug/layout_fragment_reader.xml.flat",
+        "source": "/home/ss/HOME/EDUCATION/1_Programming/1_Android/5_Practice/2_Kotlin/2_QRCodeReaderApp/QRReader/app/src/main/res/layout/fragment_reader.xml"
     }
 ]
